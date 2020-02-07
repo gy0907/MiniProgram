@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+.title {
+  color: red;
+}
+.e64340 {
+  background: #e64340;
+  color: white;
+}

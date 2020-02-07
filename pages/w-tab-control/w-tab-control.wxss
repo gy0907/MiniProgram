@@ -1,0 +1,16 @@
+/* pages/w-tab-control/w-tab-control.wxss */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container view {
+  text-align: center;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.active {
+  color: red;
+  border-bottom: 3px solid deeppink;
+  box-sizing: border-box;
+}

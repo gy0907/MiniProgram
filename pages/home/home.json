@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-tab-control": "/pages/w-tab-control/w-tab-control",
+    "my-sel": "/pages/my-sel/my-sel",
+    "my-slot": "/pages/my-slot/my-slot"
+  }
+}

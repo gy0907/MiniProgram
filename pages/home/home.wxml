@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<text class="title">pages/home/home.wxml</text>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取授权</button>
+<button size="mini" type="primary">主要按钮</button>
+<button size="mini" type="default">默认按钮</button>
+<button size="mini" type="warn">警告按钮</button>
+<!-- plain：镂空效果 -->
+<button size="mini" plain>镂空按钮</button>
+<button size="mini" plain loading="{{isLoading}}">加载</button>
+<button hover-class="e64340">按下去颜色</button>
+<w-tab-control 
+titles="{{['流行','新款','潮流','鞋头']}}"
+bind:itemclick="tabControlClick"
+></w-tab-control>
+<my-sel class="sel-class" />
+<button 
+bindtap="handleIncrementCpn"
+size="mini"
+>修改子组件counter</button>
+<my-slot>我是slot</my-slot>

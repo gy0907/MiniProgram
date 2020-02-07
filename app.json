@@ -1,14 +1,19 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/about/about",
+    "pages/category/category",
+    "pages/profile/profile",
+    "pages/w-tab-control/w-tab-control",
+    "pages/my-sel/my-sel"
   ],
   "window": {
+    "navigationBarBackgroundColor": "#fe3",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "enablePullDownRefresh": false
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap19.json"
 }
